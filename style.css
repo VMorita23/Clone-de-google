@@ -101,6 +101,7 @@ main .main_input_container:hover{
     margin: 0 auto;
 }
 
+
 .main_buttons button{
     height: 30px;
     background-color: aliceblue;
@@ -122,4 +123,9 @@ footer{
     position: absolute;
     bottom: 0;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: darkgrey;
+    border-top: 1px solid black;
 }
