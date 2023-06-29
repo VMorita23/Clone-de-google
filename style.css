@@ -29,7 +29,6 @@ nav .nav_right_section a{
     background-position: center;
     background-size: contain;
     width: 25px;
-    height: 25px;
 }
 
 nav .nav_right_section img{
@@ -45,7 +44,7 @@ main{
 }
 
 main .main_logo{
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
