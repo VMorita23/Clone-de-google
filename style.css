@@ -101,10 +101,13 @@ main .main_input_container:hover{
     margin: 0 auto;
 }
 
+.main_buttons div{
+    display: inline-block;
+}
 
 .main_buttons button{
     height: 30px;
-    background-color: aliceblue;
+    background-color: rgb(243, 250, 255);
     border: 0;
     font-size: 14px;
     border-radius: 8px;
@@ -128,4 +131,24 @@ footer{
     font-size: 14px;
     background-color: darkgrey;
     border-top: 1px solid black;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+footer .left{
+    justify-content: left;
+}
+
+footer .right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: black;
 }
